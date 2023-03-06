@@ -1,0 +1,8 @@
+Tabela de "Atalho":
+
+ls -a: Ver arquivos ocultos
+cd: mudar diretório/pasta
+cd ..: sair do diretório/pasta
+tab: auto completar
+Abrir Diretório: dir
+Abrir/Criar Pasta/diretório: mkdir "nome da pasta"
