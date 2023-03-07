@@ -1,4 +1,4 @@
-Tabela de "Atalho":
+Tabela de "Atalhos":
 
 ls -a: listar arquivos exibidos, Ver arquivos ocultos
 cd: mudar diretório/pasta
@@ -11,13 +11,16 @@ pwd: para saber em que pasta está
 Untracked files:
 Arquivo que não subiu/commitou/e nem adicionado
 
+
+
+NOMENCLATURAS: 
+--------------------------------------------------------------------------------------------
 tracked files: (adicionar)
-git add .
-
-depois ls: pra conferir
-
 Readme.md: Instruções do Projeto/Breve Explicações
-ls
+
+
+
+PASSO A PASSO:
 ---------------------------------------------------------------------------------------------
 SINCRONIZANDO TERMINAL/GIT (LOCAL) COM O GITHUB (NUVEM):
 
@@ -44,11 +47,11 @@ REMOVER ARQUIVO GIT e GitHub:
 
 3. git status para confirmar  
 
-4. git add . para adicionar a alteração
+4. git add . para adicionar a alteração (no controle local)
 
-5. git commit -m "Exclusão das anotações do curso do Git/GitHub"
+5. git commit -m "Exclusão das anotações do curso do Git/GitHub" (Criou um commit e já esta pronto para enviar para a nuvem)
 
-6. Git Push para sincronizar e excluir no github
+6. Git Push ORIGIN MAIN (ORIGIN MAIN, FAZ UMA VEZ SÓ, OS DEMAIS, NÃO PRECISA ESCREVER) para sincronizar e excluir no github 
 
 ---------------------------------------------------------------------------------------------------
 ABRIR PASTA/REPOSITÓRIO NO TERMINAL/GIT:
@@ -72,5 +75,7 @@ rm <nome do arquivo>
 
 --------------------------------------------------------------------------------------------------
 
-
+Links:
+Folha de Dicas 
+https://training.github.com/downloads/pt_BR/github-git-cheat-sheet.pdf
 
