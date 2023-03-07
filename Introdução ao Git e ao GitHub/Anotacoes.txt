@@ -3,6 +3,7 @@ Tabela de "Atalho":
 ls -a: listar arquivos exibidos, Ver arquivos ocultos
 cd: mudar diretório/pasta
 cd ..: sair do diretório/pasta
+ctrl + L = limpar a tela do git
 tab: auto completar
 Abrir Diretório: dir
 Abrir/Criar Pasta/diretório: mkdir "nome da pasta"
@@ -13,6 +14,10 @@ Arquivo que não subiu/commitou/e nem adicionado
 tracked files: (adicionar)
 git add .
 
+depois ls: pra conferir
+
+Readme.md: Instruções do Projeto/Breve Explicações
+ls
 ---------------------------------------------------------------------------------------------
 SINCRONIZANDO GIT (LOCAL) COM O GITHUB (NUVEM):
 
@@ -21,18 +26,25 @@ SINCRONIZANDO GIT (LOCAL) COM O GITHUB (NUVEM):
 2 - Git: ls (listar) para verificar se o arquivo existe
 
 3 - Git entender que a gente quer enviar para o controle de versão/Local: 
-git add. ou git -A (pasta toda)
+git add . ou git -A (pasta toda)
 
-4 - Git entender que a gente quer enviar para o controle de versão/inclusão no git/github: 
+4 - Git entender que quer salvar apenas um arquivo:
+git add "nome do arquivo"
+
+5 - Git entender que a gente quer enviar para o controle de versão/inclusão no git/github: 
 git commit -m "Inclusão das anotações do curso do Git/GitHub"
 
-3 - Git Push:
+6 - Git Push:
 git push
 Sincroniza repositório local com o repositório GitHub
 ------------------------------------------------------------------------------------------------
-
-remover arquivo local:
+REMOVER ARQUIVO GIT: 
 rm <nome do arquivo>
 
-depois ls: pra conferir
------------------------------------------------------------------------------------------------
+REMOVER ARQUIVO DO GITHUB:
+git commit -m "Exclusão das anotações do curso do Git/GitHub"
+
+
+
+
+
