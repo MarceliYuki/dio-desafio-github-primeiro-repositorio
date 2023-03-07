@@ -1,16 +1,15 @@
 Tabela de "Atalhos":
 
 ls: Listar 
-ls -a: listar arquivos exibidos, Ver arquivos ocultos
+ls -a: listar arquivos exibidos, ver arquivos ocultos
 cd: mudar diretório/pasta
 cd ..: sair do diretório/pasta
-ctrl + L = limpar a tela do git
+ctrl + L = limpar a tela 
 tab: auto completar
 Abrir Diretório: dir
 Abrir/Criar Pasta/diretório: mkdir "nome da pasta"
-pwd: para saber em que pasta está
-Untracked files:
-Arquivo que não subiu/commitou/e nem adicionado
+pwd: para saber em que pasta está no momento
+
 
 PASSO A PASSO:
 
@@ -66,6 +65,8 @@ git commit -m "Inclusão das anotações do curso do Git/GitHub"
 git push
 Sincroniza repositório local com o repositório GitHub
 
+6 - Git status: para verificar se foi executado
+
 ------------------------------------------------------------------------------------------------
 REMOVER ARQUIVO LOCAL/GIT e GitHub: 
 
@@ -91,6 +92,7 @@ Git Log (qualquer ação):
 
 NOMENCLATURAS: 
 
+Untracked files: Arquivo que não subiu/commitou/e nem adicionado
 tracked files: (adicionar)
 Readme.md: Instruções do Projeto/Breve Explicações
 Braches: "ramos"
