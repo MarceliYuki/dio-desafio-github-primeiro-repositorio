@@ -1,5 +1,6 @@
 Tabela de "Atalhos":
 
+ls: Listar 
 ls -a: listar arquivos exibidos, Ver arquivos ocultos
 cd: mudar diretório/pasta
 cd ..: sair do diretório/pasta
@@ -11,17 +12,43 @@ pwd: para saber em que pasta está
 Untracked files:
 Arquivo que não subiu/commitou/e nem adicionado
 
-
-
-NOMENCLATURAS: 
---------------------------------------------------------------------------------------------
-tracked files: (adicionar)
-Readme.md: Instruções do Projeto/Breve Explicações
-
-
-
 PASSO A PASSO:
----------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------
+CRIANDO UM NOVO REPOSITÓRIO/PASTA:
+git init
+
+Os repositórios locais consistem em 3 "árvores" mantidas pelo git. (arquivo oculto no windows)
+- Working Directory (Contém os arquivos vigentes)
+- Index (Área temporária)
+- Head (aponta para o último commit (confirmação) efetuado.
+
+--------------------------------------------------------------------------------------------------
+CRIAR PASTA/REPOSITÓRIO NO TERMINAL/GIT:
+mkdir <nome da pasta>
+
+ENTRAR NA PASTA/REPOSITÓRIO PELO TERMINAL/GIT:
+cd <tab> <nome da pasta> 
+
+SAIR DAS PASTAS PELO TERMINAL/GIT: 
+cd ..
+
+APAGAR PASTA/REPOSITÓRIO:
+rmdir <tab> <nome do arquivo>
+
+--------------------------------------------------------------------------------------------------
+ATUALIZAR E MESCLAR:
+Para atualizar o repositório local com a mais nova versão:
+git pull
+
+---------------------------------------------------------------------------------------------------
+ABRIR ARQUIVO TXT. OU MD (MARKEDOWN) NO TERMINAL/GIT:
+touch <nome do arquivo>
+
+REMOVER ARQUIVO TXT NO TERMINAL/GIT:
+rm <nome do arquivo>
+
+--------------------------------------------------------------------------------------------------
 SINCRONIZANDO TERMINAL/GIT (LOCAL) COM O GITHUB (NUVEM):
 
 1 - Git: ls (listar) para verificar se o arquivo existe
@@ -40,44 +67,35 @@ git push
 Sincroniza repositório local com o repositório GitHub
 
 ------------------------------------------------------------------------------------------------
-REMOVER ARQUIVO GIT e GitHub: 
+REMOVER ARQUIVO LOCAL/GIT e GitHub: 
+
 1. rm <nome do arquivo>
 
 2. ls para conferir que foi deletado
 
 3. git status para confirmar  
 
-4. git add . para adicionar a alteração (no controle local)
+4. Git entender que a gente quer enviar a atualização de exclusão para o controle de versão/Local: 
+git add . ou git -A (pasta toda)
 
 5. git commit -m "Exclusão das anotações do curso do Git/GitHub" (Criou um commit e já esta pronto para enviar para a nuvem)
 
 6. Git Push ORIGIN MAIN (ORIGIN MAIN, FAZ UMA VEZ SÓ, OS DEMAIS, NÃO PRECISA ESCREVER) para sincronizar e excluir no github 
 
 ---------------------------------------------------------------------------------------------------
-ABRIR PASTA/REPOSITÓRIO NO TERMINAL/GIT:
-mkdir <nome da pasta>
+LISTAR OS COMMIT´S:
 
-ENTRAR NA PASTA/REPOSITÓRIO PELO TERMINAL/GIT:
-cd <tab> <nome da pasta> 
-
-SAIR DAS PASTAS PELO TERMINAL/GIT: 
-cd ..
-
-APAGAR PASTA/REPOSITÓRIO:
-rmdir <tab> <nome do arquivo>
-
----------------------------------------------------------------------------------------------------
-ABRIR ARQUIVO TXT. OU MD (MARKEDOWN) NO TERMINAL/GIT:
-touch <nome do arquivo>
-
-REMOVER ARQUIVO TXT NO TERMINAL/GIT:
-rm <nome do arquivo>
+Git Log (qualquer ação):
 
 --------------------------------------------------------------------------------------------------
 
+NOMENCLATURAS: 
 
+tracked files: (adicionar)
+Readme.md: Instruções do Projeto/Breve Explicações
+Braches: "ramos"
 
-
+--------------------------------------------------------------------------------------------------
 Links:
 Folha de Dicas 
 https://training.github.com/downloads/pt_BR/github-git-cheat-sheet.pdf
