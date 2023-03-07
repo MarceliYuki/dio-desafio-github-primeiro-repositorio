@@ -1,14 +1,38 @@
 Tabela de "Atalho":
 
-ls -a: Ver arquivos ocultos
+ls -a: listar arquivos exibidos, Ver arquivos ocultos
 cd: mudar diretório/pasta
 cd ..: sair do diretório/pasta
 tab: auto completar
 Abrir Diretório: dir
 Abrir/Criar Pasta/diretório: mkdir "nome da pasta"
 
-Git entender que a gente quer enviar para o controle de versão/Local: 
-git add. ou git -A 
+Untracked files:
+Arquivo que não subiu/commitou/e nem adicionado
 
-Git entender que a gente quer enviar para o controle de versão/inclusão no git/github: 
+tracked files: (adicionar)
+git add .
+
+---------------------------------------------------------------------------------------------
+SINCRONIZANDO GIT (LOCAL) COM O GITHUB (NUVEM):
+
+1 - Abrir Arquivo txt em diretório
+
+2 - Git: ls (listar) para verificar se o arquivo existe
+
+3 - Git entender que a gente quer enviar para o controle de versão/Local: 
+git add. ou git -A (pasta toda)
+
+4 - Git entender que a gente quer enviar para o controle de versão/inclusão no git/github: 
 git commit -m "Inclusão das anotações do curso do Git/GitHub"
+
+3 - Git Push:
+git push
+Sincroniza repositório local com o repositório GitHub
+------------------------------------------------------------------------------------------------
+
+remover arquivo local:
+rm <nome do arquivo>
+
+depois ls: pra conferir
+-----------------------------------------------------------------------------------------------
