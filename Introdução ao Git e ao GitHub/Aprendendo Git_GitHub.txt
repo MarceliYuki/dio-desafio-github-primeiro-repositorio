@@ -36,6 +36,29 @@ APAGAR PASTA/REPOSITÓRIO:
 rmdir <tab> <nome do arquivo>
 
 --------------------------------------------------------------------------------------------------
+APÓS ABERTURA DE UM NOVO REPOSITÓRIO (fazendo clone) - SINCRONIZAR COM O TERMINAL LOCAL/GIT E GITHUB:
+
+GitHub: Novo Repositório, copia o link 
+No Terminal: git clone <https://github.com/MarceliYuki/Aprendendo-Java-1.git>
+
+1 - Git: ls (listar) para verificar se o arquivo existe
+
+2 - Git entender que a gente quer enviar para o controle de versão/Local: 
+git add . ou git -A (pasta toda)
+
+3 - Git entender que quer salvar apenas um arquivo:
+git add "nome do arquivo"
+
+4 - Git entender que a gente quer enviar para o controle de versão/inclusão no git/github: 
+git commit -m "Inclusão das anotações do curso do Git/GitHub"
+
+5 - Git Push:
+git push
+Sincroniza repositório local com o repositório GitHub
+
+6 - Git status: para verificar se foi executado
+
+--------------------------------------------------------------------------------------------------
 ATUALIZAR E MESCLAR:
 Para atualizar o repositório local com a mais nova versão:
 git pull
